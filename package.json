@@ -1,0 +1,27 @@
+{
+    "name": "invoke",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "invoke": "build/cli.js"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.982.0",
+        "nanoid": "^3.1.25",
+        "webpack": "^5.51.1",
+        "yargs": "^17.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^16.9.0",
+        "@types/webpack": "^5.28.0",
+        "@types/yargs": "^17.0.2",
+        "typescript": "^4.4.2"
+    }
+}
